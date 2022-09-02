@@ -2,7 +2,7 @@
 import java.util.Random;
 
 public class Mavenproject1 {
-       static void reverse(int o[], int n)
+    static void reverse(int o[], int n)
     {
         int i, k, t;
         for (i = 0; i < n / 2; i++) {
@@ -10,8 +10,8 @@ public class Mavenproject1 {
             o[i] = o[n - i - 1];
             o[n - i - 1] = t;
         };
-  
-      
+
+
         System.out.println("Reversed array is: \n");
         for (k = 0; k < n; k++) {
             System.out.println(o[k]);
@@ -26,7 +26,7 @@ public class Mavenproject1 {
         };
         int freq1, freq2, freq3, freq4, freq5, freq6, freq7, freq8, freq9, freq10=freq1 = freq2= freq3= freq4= freq5= freq6= freq7= freq8=freq9=0;
         for(int j = 0; j<a.length;j++){
-            
+
             switch(a[j]){
                 case 1:
                     freq1++;
@@ -60,23 +60,24 @@ public class Mavenproject1 {
                     break;
             }
         }
- 
-            System.out.println("freq of 1  = " + freq1);
-            System.out.println("freq of 2  = " + freq2);
-            System.out.println("freq of 3  = " + freq3);
-            System.out.println("freq of 4  = " + freq4);
-            System.out.println("freq of 5  = " + freq5);
-            System.out.println("freq of 6  = " + freq6);
-            System.out.println("freq of 7  = " + freq7);
-            System.out.println("freq of 8  = " + freq8);
-            System.out.println("freq of 9  = " + freq9);
-            System.out.println("freq of 10  = " + freq10);
 
-            reverse(a, a.length);
-            int[] b = a;
+        System.out.println("freq of 1  = " + freq1);
+        System.out.println("freq of 2  = " + freq2);
+        System.out.println("freq of 3  = " + freq3);
+        System.out.println("freq of 4  = " + freq4);
+        System.out.println("freq of 5  = " + freq5);
+        System.out.println("freq of 6  = " + freq6);
+        System.out.println("freq of 7  = " + freq7);
+        System.out.println("freq of 8  = " + freq8);
+        System.out.println("freq of 9  = " + freq9);
+        System.out.println("freq of 10  = " + freq10);
+
+        reverse(a, a.length);
+        int[] b = a;
 
     };
- 
 
- 
+
+
 };
+
